@@ -1,0 +1,34 @@
+node_modules/
+.next/
+out/
+.vercel/
+coverage/
+.turbo/
+.eslintcache
+.commandcode/
+docs/
+
+# Environment variables and local secrets
+.env*
+!.env.example
+!.env.sample
+
+# Local build and debug output
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+.DS_Store
+
+# oh-my-Codex runtime state and generated artifacts
+.omc/state/
+.omc/handoffs/
+.omc/logs/
+.omc/artifacts/
+.omc/plans/
+.omc/research/
+.omc/ultragoal/
+.omc/notepad.md
+.omc/notepads/
+.omc/project-memory.json
